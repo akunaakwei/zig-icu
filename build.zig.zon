@@ -1,0 +1,27 @@
+.{
+    .name = .icu,
+    .version = "76.1.0",
+    .fingerprint = 0xd6f8946a54db506f,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .icu = .{
+            .url = "https://github.com/unicode-org/icu/archive/refs/tags/release-76-1.tar.gz",
+            .hash = "N-V-__8AAAzOpxEgfWYMU1QjlxuZp4WeqIpVGDywqtkON4pf",
+        },
+        .icudtl = .{
+            .url = "https://github.com/unicode-org/icu/releases/download/release-76-1/icu4c-76_1-data-bin-l.zip",
+            .hash = "N-V-__8AAMFv5gHrTqBcDALQpjcQUithgyAtVeQTcgUN-HIL",
+            // .lazy = true,
+        },
+        .icudtb = .{
+            .url = "https://github.com/unicode-org/icu/releases/download/release-76-1/icu4c-76_1-data-bin-b.zip",
+            .hash = "N-V-__8AAMFv5gGKxNWC3dEz-oJ6Umtbk3nEtL18G7vdHMCo",
+            // .lazy = true,
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+    },
+}
