@@ -1,22 +1,22 @@
 .{
     .name = .icu,
-    .version = "76.1.0",
+    .version = "77.1.0",
     .fingerprint = 0xd6f8946a54db506f,
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
         .icu = .{
-            .url = "https://github.com/unicode-org/icu/archive/refs/tags/release-76-1.tar.gz",
-            .hash = "N-V-__8AAAzOpxEgfWYMU1QjlxuZp4WeqIpVGDywqtkON4pf",
+            .url = "https://github.com/unicode-org/icu/archive/refs/tags/release-77-1.tar.gz",
+            .hash = "N-V-__8AAGOrnBGugOIb3017joB922hCEBoh_PhGjSDua6HD",
         },
         .icudtl = .{
-            .url = "https://github.com/unicode-org/icu/releases/download/release-76-1/icu4c-76_1-data-bin-l.zip",
-            .hash = "N-V-__8AAMFv5gHrTqBcDALQpjcQUithgyAtVeQTcgUN-HIL",
-            // .lazy = true,
+            .url = "https://github.com/unicode-org/icu/releases/download/release-77-1/icu4c-77_1-data-bin-l.zip",
+            .hash = "N-V-__8AAMEZ5wGRruy0dJbpOXy-qyDU139ZX9uU6ZvpjYBB",
+            .lazy = true,
         },
         .icudtb = .{
-            .url = "https://github.com/unicode-org/icu/releases/download/release-76-1/icu4c-76_1-data-bin-b.zip",
-            .hash = "N-V-__8AAMFv5gGKxNWC3dEz-oJ6Umtbk3nEtL18G7vdHMCo",
-            // .lazy = true,
+            .url = "https://github.com/unicode-org/icu/releases/download/release-77-1/icu4c-77_1-data-bin-b.zip",
+            .hash = "N-V-__8AAMEZ5wEJOxG9SydA-RG_clugPMIiyrv8Sd9PO9xV",
+            .lazy = true,
         },
     },
     .paths = .{
